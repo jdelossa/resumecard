@@ -9,7 +9,7 @@ set :copy_compression, :gzip
 set :use_sudo, false
 
 # the name of the user that should be used for deployments on your VPS
-set :user, "admin"
+set :user, "root"
 
 # the path to deploy to on your VPS
 # this is the most common path on Apache configs, update your own accordingly
