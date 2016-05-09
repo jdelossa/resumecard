@@ -143,28 +143,78 @@ Author URL: http://joannadelossantos.com
   margin-left: 0;
   padding-left: 0; }
 
-.header .nav-pills {
+/*.header .nav-pills {
   height: 50px;
   position: relative;
-  width: 100%; }
-  .header .nav-pills li {
-    float: right; }
-    .header .nav-pills li a {
-      color: #333; }
-
-.header .btn {
-  background-color: #614C49;
-  color: #ffffff;
+  width: 100%;
+  li {
+    float: right;
+    a {
+      color: $white;
+    }
+  }
+}*/
+.nav-pills {
   float: right; }
-  .header .btn:hover, .header .btn:active, .header .btn:focus, .header .btn:visited {
-    background-color: #61322C;
+
+@media (max-width: 767px) {
+  .nav-pills {
+    float: none;
+    margin-top: 20px; }
+    .nav-pills li {
+      float: none;
+      text-align: center; }
+
+  .header img {
+    float: none; }
+
+  .header {
+    text-align: center;
+    margin: AUTO; }
+
+  .header .brand {
+    font-size: 16px !important;
+    margin: 0 !important;
+    position: relative;
+    top: 12px; }
+
+  .header .btn {
+    float: none !important;
+    text-align: center; } }
+@media (max-width: 580px) {
+  .header .brand {
+    display: block !important; } }
+@media (max-width: 480px) {
+  .header {
+    padding: 10px 0; }
+
+  .header .brand {
+    font-size: 12px !important; }
+
+  .header .btn {
+    float: none !important;
+    font-size: 10px;
+    padding: 7px;
+    text-align: center; } }
+.header .btn {
+  background-color: #AE5A4F;
+  float: right;
+  color: #ffffff;
+  margin: 12px 0; }
+  .header .btn a:hover, .header .btn a:active, .header .btn a:focus, .header .btn a:visited {
+    background-color: #614C49;
     transition: 0.5s; }
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: #614C49;
+  transition: 0.5s; }
 
 .header .brand {
   font-family: 'Nexa Bold', sans-serif;
   margin: 12px 0;
   font-size: 18px;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  display: inline-block; }
 
 /* skills css */
 .list-skills li .progress {
