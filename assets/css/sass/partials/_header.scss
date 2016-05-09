@@ -1,0 +1,61 @@
+.header {
+  background-color: $off-white;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: auto;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.header img {
+  float: left;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 100%;
+  background: $base;
+}
+
+.header li {
+  font-family: 'Nexa Bold', sans-serif;
+  list-style-type: none;
+  padding: 4px 0;
+}
+
+.header ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.header .nav-pills {
+  height: 50px;
+  position: relative;
+  width: 100%;
+  li {
+    float: right;
+    a {
+      color: #333;
+    }
+  }
+}
+
+.header .btn {
+  background-color: $dark;
+  color: $white;
+  float: right;
+
+  &:hover, &:active, &:focus, &:visited {
+    background-color: $darkest;
+    transition: 0.5s;
+  }
+}
+
+.header .brand {
+  font-family: 'Nexa Bold', sans-serif;
+  margin: 12px 0;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,42 @@
+
+.title {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Nexa Bold', sans-serif;
+}
+
+.title.with-icon {
+  padding-left: 50px;
+}
+
+.title .cat-title {
+  margin-right: 5px;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  background: $base-dark;
+  padding: 10px;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+  top: -6px;
+  min-height: 40px;
+  padding-bottom: 13px;
+  border-radius: 5px;
+}
+
+.title .cat-title:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  bottom: -10px;
+  border-top: 10px solid $base-dark;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}

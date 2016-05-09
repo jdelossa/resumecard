@@ -1,0 +1,37 @@
+.grid-block {
+  background-color: #f0f0f0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #dddddd;
+  padding: 15px 25px;
+  margin: 10px 0;
+}
+
+.grid-block:before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-color: transparent #ddd #ddd transparent;
+  border-style: solid;
+  border-width: 21px;
+}
+
+.grid-block:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-color: transparent #ebebeb #ebebeb transparent;
+  border-style: solid;
+  border-width: 20px;
+}
+
+.grid-block h4 {
+  word-wrap: break-word;
+}

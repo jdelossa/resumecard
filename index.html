@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+                <h3 class="title with-icon"><i class="fa fa-briefcase cat-title" aria-hidden="true"></i>Selected Work History</h3>
                 <ul class="timeline">
                     {% for work in site.author.workHistory %}
                         <li class="timeline-inverted">
@@ -91,6 +91,20 @@ layout: default
             {% endif %}
         </div>
         <div class="col-md-4">
+            {% if site.author.email %}
+            <h3 class="title with-icon"><span class="fa fa-eye cat-title"></span> Contact Me</h3>
+            <div class="grid-block">
+                <ul class="list-unstyled list-contact">
+                    <li><i class="fa fa-facebook fa-fw"></i> <a href="//facebook.com/profile.php?id={{ site.author.facebook }}" target="_blank"> @{{ site.author.linkedin }} </a></li>
+                    <li><i class="fa fa-instagram fa-fw"></i> <a href="//instagram.com/{{ site.author.instagram }}" target="_blank"> @{{ site.author.instagram }} </a></li>
+                    <li><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></li>
+                    <li><i class="fa fa-google fa-fw"></i> <a href="//plus.google.com/+{{ site.author.google }}" target="_blank">  @{{ site.author.google }} </a></li>
+                    <li><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> @{{ site.author.linkedin }} </a></li>
+                    <li><i class="fa fa-github fa-fw"></i><a href="//github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:{{ site.author.email }}">  {{ site.author.email }}</a> </li>
+                </ul>
+            </div>
+            {% endif %}
             {% if site.author.stackoverflow or site.author.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 {% if site.author.stackoverflow %}
@@ -245,7 +259,7 @@ layout: default
                             {% if language.name %}
                                 {% if language.proficiency %}
                                     <li>
-                                        <i class="fa fa-check"></i> <span class="badge badge-green badge-right-float">{{ language.proficiency }}</span>{{ language.name }}
+                                        <i class="fa fa-check"></i> <span class="badge badge-right-float">{{ language.proficiency }}</span>{{ language.name }}
                                     </li>
                                 {% endif %}
                             {% endif %}

@@ -1,0 +1,36 @@
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.btn-dark.disabled,
+.btn-dark[disabled] {
+  color: #ffffff;
+  background-color: #444444;
+}
+
+.btn-flat {
+  background: #ba4e4e;
+  color: white;
+  font-weight: 300;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-right: 20px;
+  box-shadow: 0 5px 0 #a63838;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.btn-flat:hover,
+.btn-flat:focus,
+.btn-flat.active,
+.btn-flat.style2:hover {
+  color: white;
+  bottom: -5px;
+  box-shadow: none;
+}
+
+.btn-flat.style2 {
+  background: #63A4B5;
+  box-shadow: 0 5px 0 #5b94a3;
+}

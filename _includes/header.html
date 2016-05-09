@@ -1,21 +1,21 @@
 <div class="header">
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="col-sm-4">
-                <img src="{{ site.favicon | prepend: site.baseurl }}" title="Avatar" alt="My Avatar">
-                <h4>{{ site.author.name }}</h4>
-                <p>{{ site.author.title }}</p>
-                <p class="muted">{{ site.author.address }}</p>
-                <div class="clearfix"></div>
+            <div class="col-md-2 col-sm-3">
+                <a href="{{ site.baseurl }}"><img src="{{ site.favicon }}" title="JD Logo" alt="My Logo"></a>
+                <a href="{{ site.baseurl }}"><img src="{{ site.author.gavatar }}" title="Avatar" alt="My Avatar"></a>
             </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
-                <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
-                <p><i class="fa fa-github fa-fw"></i><a href="//github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
-                <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
-                <p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
+            <div class="col-md-5 col-sm-4">
+                <div class="brand">
+                    <p>{{ site.author.name }} | {{ site.author.title }}</p>
+                </div>
             </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block">
-                <a href="#" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf </a>
+            <div class="col-md-5 col-sm-5">
+                <ul class="nav nav-pills">
+                    <li><a href="" class="">Resume</a></li>
+                    <li><a href="" class="">Portfolio</a></li>
+                    <!--<li><a href="{{ site.author.resume }}" class="btn btn-dark" target="_blank"><i class="icon-file icon-white"></i>PDF Resume</a></li>-->
+                </ul>
             </div>
         </div>
     </div>

@@ -1,0 +1,14 @@
+.list-contact {
+  margin-bottom: 0;
+  li {
+    line-height: 24px;
+    .fa {
+      color: $dark;
+      font-size: 18px;
+      &:nth-child(even) {
+        color: $base-dark;
+      }
+    }
+  }
+
+}

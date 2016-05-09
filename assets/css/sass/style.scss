@@ -1,0 +1,52 @@
+/*
+
+Project:    Joanna De Los Santos Resume/Portfolio
+Version:    1.0
+Author:     Joanna De Los Santos
+Author URL: http://joannadelossantos.com
+
+*/
+
+@import "partials/variables";
+
+@import "partials/badge";
+@import "partials/btn";
+@import "partials/contact";
+@import "partials/fonts";
+@import "partials/footer";
+@import "partials/gridblock";
+@import "partials/header";
+@import "partials/skills";
+@import "partials/stackoverflow";
+@import "partials/techstack";
+@import "partials/timeline";
+@import "partials/title";
+
+
+body {
+  //background-color: #F0F0F0;
+  background-image: url(../img/bg.jpg);
+  font-family: 'Nexa Light', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    color: $darkest;
+  }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
+}
+
+.deviter {
+  height: 1px;
+  margin: 10px 0;
+  border-bottom: 1px dashed #ddd;
+}

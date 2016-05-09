@@ -1,0 +1,53 @@
+/* skills css */
+.list-skills li .progress {
+  height: 10px;
+  box-shadow: none;
+  overflow: inherit;
+}
+
+.list-skills li .progress .progress-bar {
+  border-radius: 5px;
+  text-align: right;
+  position: relative;
+  background: $darkest;
+  box-shadow: none;
+}
+
+.list-skills li .progress .progress-bar span {
+  position: relative;
+  bottom: -15px;
+  font-size: 10px;
+  color: white;
+  right: -13px;
+  display: inline-block;
+  background: $base;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+.list-skills li .progress .progress-bar span:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+  top: -5px;
+  border-bottom: 5px solid $base;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.list-skills li:nth-child(even) .progress-bar {
+  background: $base-dark;
+}
+
+.list-strip li {
+  color: white;
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  background: $dark;
+}
+
+.list-strip li:nth-child(even) {
+  background: #BA4E4E;
+}

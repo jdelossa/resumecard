@@ -1,11 +1,11 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
-favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
+title: JoCodes
+description: CV/Resume and Portfolio
+favicon: /assets/img/logo.png
+baseurl:
+url:
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+google_analytics:
 
 # Build settings
 markdown: kramdown
@@ -14,72 +14,104 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
-  weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
-#  stackoverflow: 4582127
+  name: Joanna De Los Santos
+  title: Applications Developer
+  address: New York, NY
+
+  link: http://joannadelossantos.com
+  weibo: JoCodes.com
+  facebook: 100000507721664
+  instagram: joannadelossantos
+  twitter: simplyjojoo
+  google: joannadelossantos
+  linkedin: joannadelossantos
+  github: jdelossa
+  email: JoannaCodes@Gmail.com
+  gavatar: /assets/img/avatar.png
+  # stackoverflow: 2037871
+  resume: /assets/documents/santos_resume.pdf
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
+      company: Winthrop-University Hospital
+      location: Mineola, New York
+      title: IT Web Developer
       started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      duration: (July 2014 - Present)
+      description: Define, design, develop and deploy external facing applications/websites. From start to finish, these projects can take anywhere from 3 - 6 months.<br>
+                   <ul>
+                   <li>Define and gather all content that is intended to be on the product and with define all project requirements.</li>
+                   <li>Follow up with designing prototypes, functionality, technicalities and system architecture.</li>
+                   <li>After design procedure approvals, develop the application with enough time to test before deployment.</li>
+                   <li>Create user documentation.</li>
+                   <li>Deploy on an external server (for security purposes) where sever configurations are made for the application/website.</li>
+                   </ul>
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: New York Insitute of Technology
+      location: New York, New York
+      title: Technology Assistant
+      started: 2014
+      duration: (September 2014 - May 2014)
+      description: <ul>
+                   <li>Ghost imaged 100+ computers, including concurrently configuring software for multiple systems. </li>
+                   <li>Resolved wireless video connection issues for distance learning classrooms to maintain student satisfaction. </li>
+                   <li>Constructed a new Microsoft Access database for computers in 50+ classrooms. </li>
+                   </ul>
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: University of Arizona
+      location: Tucson, Arizona
+      title: Undergraduate Research Assistant
+      started: 2013
+      duration: (June 2013 - August 2013)
+      description: <ul>
+                   <li>Developed an Android application with Java and C++ for a vehicle using it as a remote control through the GPS system using Matlab, Open Jaus, and CMake. </li>
+                   <li>Produced an algorithm that allows the car to be safe enough to present to high school students. </li>
+                   <li>Crafted parameters and constants to allow the students to interact with the vehicle. </li>
+                   <li>Used TexMaker to create project proposal and published a research paper. Published a video that summed up the research experience. </li>
+                   </ul>
   educationHistory:
     - education1:
-      organization: Northeastern University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: New York Institute of Technology
+      location: New York, New York
+      degree: Bachelor's of Science
+      major: Information Technology, <i>Cum Laude</i>
+      started: 2010
+      duration: (September 2010 - May 2014)
+      description: <strong>Desktop Application – Automated Billing Software</strong><br>
+                   Used evolutionary process workflow with JSwing GUI framework and Java to develop new cycle of billing automation platforms and created corresponding documentation<br>
+                   <strong>Desktop Application – Automated Transaction Machine</strong><br>
+                   Completed a fully functional ATM machine with accurate software and mechanisms to access checking, savings, deposits, and withdrawal actions<br>
+                   <strong>Amerikids – Saving Panda</strong><br>
+                   Developed gaming programming and used JavaScript to build a Unity3D children’s game, as seen here
+                   <a href="www.gkmnyit.com/" target="_blank">gkmnyit.com</a>
   languages:
     - language1:
-      name: Chinese
+      name: Spanish
       proficiency: Native
     - language2:
       name: English
       proficiency: Professional
     - language3:
-      name: Japanese
-      proficiency: Limit
+      name: French
+      proficiency: Limited Working Proficiency
   programmingSkills:
     - skill1:
       name: HTML
       percentage: 100%
     - skill2:
       name: Bootstrap
-      percentage: 90%
+      percentage: 100%
     - skill3:
-      name: JavaScript
-      percentage: 70%
-    - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
-      name: Java/Java EE
+      name: JavaScript/JQuery
       percentage: 90%
+    - skill4:
+      name: PHP
+      percentage: 90%
+    - skill5:
+      name: AngularJS
+      percentage: 80%
+    - skill6:
+      name: Python
+      percentage: 70%
+    - skill6:
+      name: Java
+      percentage: 60%
