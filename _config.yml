@@ -5,7 +5,7 @@ favicon: /assets/img/logo.png
 baseurl:
 url:
 rss_url: /pages/atom.xml
-google_analytics:
+google_analytics: UA-45993369-1
 
 # Build settings
 markdown: kramdown
@@ -116,7 +116,7 @@ author:
       name: Java
       percentage: 60%
 
-  
+
 
   exclude:
     - Capfile
