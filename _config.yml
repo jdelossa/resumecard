@@ -115,3 +115,9 @@ author:
     - skill6:
       name: Java
       percentage: 60%
+
+  
+
+  exclude:
+    - Capfile
+    - config
