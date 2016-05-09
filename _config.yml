@@ -1,5 +1,5 @@
 # Site settings
-title: JoCodes
+title: Joanna De Los Santos
 description: CV/Resume and Portfolio
 favicon: /assets/img/logo.png
 baseurl:
@@ -17,9 +17,9 @@ author:
   name: Joanna De Los Santos
   title: Applications Developer
   address: New York, NY
-
   link: http://joannadelossantos.com
   weibo: JoCodes.com
+  blog: http://jocodes.com
   facebook: 100000507721664
   instagram: joannadelossantos
   twitter: simplyjojoo

@@ -62,20 +62,20 @@
 
   }
   .header .brand {
-
     font-size: 16px !important;
     margin: 0 !important;
-    position: relative;
-      top: 12px;
+
   }
   .header .btn {
     float: none !important;
     text-align: center;
+    margin: 0 0 !important;
   }
 
 }
 @media(max-width: 580px) {
   .header .brand {
+    margin-top: 10px !important;
     display: block !important;
   }
 }

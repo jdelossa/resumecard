@@ -174,15 +174,15 @@ Author URL: http://joannadelossantos.com
 
   .header .brand {
     font-size: 16px !important;
-    margin: 0 !important;
-    position: relative;
-    top: 12px; }
+    margin: 0 !important; }
 
   .header .btn {
     float: none !important;
-    text-align: center; } }
+    text-align: center;
+    margin: 0 0 !important; } }
 @media (max-width: 580px) {
   .header .brand {
+    margin-top: 10px !important;
     display: block !important; } }
 @media (max-width: 480px) {
   .header {
@@ -290,7 +290,7 @@ Author URL: http://joannadelossantos.com
 /* timeline css */
 .timeline {
   list-style: none;
-  padding: 20px 0 20px;
+  padding: 20px 10px 20px;
   position: relative; }
 
 .timeline:before {
@@ -403,6 +403,9 @@ Author URL: http://joannadelossantos.com
   font-family: 'Nexa Bold', sans-serif;
   margin-top: 0;
   color: inherit; }
+
+.timeline-body > ul {
+  padding-left: 15px; }
 
 .timeline-body > p,
 .timeline-body > ul {
