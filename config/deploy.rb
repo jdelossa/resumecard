@@ -16,7 +16,7 @@ set :user, "admin"
 set :deploy_to, "/var/www/html"
 
 # the ip address of your VPS
-role :web, "107.170.57.105/"
+role :web, "107.170.57.105"
 
 before "deploy:update", "deploy:update_jekyll"
 
