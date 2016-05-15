@@ -35,3 +35,11 @@
 .grid-block h4 {
   word-wrap: break-word;
 }
+
+@media (max-width: 480px) {
+  .col-md-4 {
+    .grid-block{
+      margin-top: 25px;
+    }
+  }
+}

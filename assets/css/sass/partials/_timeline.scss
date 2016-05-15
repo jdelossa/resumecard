@@ -11,7 +11,7 @@
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: rgba($light, 0.4);
+  //background-color: rgba($light, 0.4);
   margin-left: -1.5px;
   left: 2.7%;
 }
@@ -71,7 +71,7 @@
   display: inline-block;
   border-top: 14px solid transparent;
   border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-right: 0 solid #F1F1F1;
   border-bottom: 14px solid transparent;
   content: " ";
 }
@@ -147,4 +147,30 @@
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+@media (max-width: 480px){
+  .timeline {
+    padding: 10px 0 20px;
+    li {
+      margin-left: 45px;
+
+      .timeline-badge {
+        margin-left: -60px;
+        width: 40px;
+        height: 40px;
+        line-height: 43px;
+        font-size: 0.7em;
+        top: 32px;
+      }
+    }
+    .timeline-body {
+      ul {
+        padding-left: 0;
+        li {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
 }

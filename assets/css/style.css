@@ -114,6 +114,9 @@ Author URL: http://joannadelossantos.com
 .grid-block h4 {
   word-wrap: break-word; }
 
+@media (max-width: 480px) {
+  .col-md-4 .grid-block {
+    margin-top: 25px; } }
 .header {
   background-color: #f0f0f0;
   border-bottom: 1px solid #dddddd;
@@ -299,7 +302,6 @@ Author URL: http://joannadelossantos.com
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: rgba(230, 180, 173, 0.4);
   margin-left: -1.5px;
   left: 2.7%; }
 
@@ -351,7 +353,7 @@ Author URL: http://joannadelossantos.com
   display: inline-block;
   border-top: 14px solid transparent;
   border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-right: 0 solid #F1F1F1;
   border-bottom: 14px solid transparent;
   content: " "; }
 
@@ -414,6 +416,22 @@ Author URL: http://joannadelossantos.com
 .timeline-body > p + p {
   margin-top: 5px; }
 
+@media (max-width: 480px) {
+  .timeline {
+    padding: 10px 0 20px; }
+    .timeline li {
+      margin-left: 45px; }
+      .timeline li .timeline-badge {
+        margin-left: -60px;
+        width: 40px;
+        height: 40px;
+        line-height: 43px;
+        font-size: 0.7em;
+        top: 32px; }
+    .timeline .timeline-body ul {
+      padding-left: 0; }
+      .timeline .timeline-body ul li {
+        margin-left: 15px; } }
 .title {
   border-bottom: 1px solid #ddd;
   position: relative;
@@ -452,6 +470,18 @@ Author URL: http://joannadelossantos.com
   border-left: 10px solid transparent;
   border-right: 10px solid transparent; }
 
+@media (max-width: 480px) {
+  h4 {
+    font-size: 16px; }
+
+  .title {
+    margin-bottom: 5px;
+    font-size: 16px; }
+    .title .cat-title {
+      left: -15px; }
+
+  .title.with-icon {
+    padding-left: 45px; } }
 body {
   background-image: url(../img/bg.jpg);
   font-family: 'Nexa Light', sans-serif;

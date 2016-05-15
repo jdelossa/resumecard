@@ -40,3 +40,19 @@
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
+
+@media (max-width: 480px) {
+  h4 {
+    font-size: 16px;
+  }
+  .title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    .cat-title {
+      left: -15px;
+    }
+  }
+  .title.with-icon {
+    padding-left: 45px;
+  }
+}
